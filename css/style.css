@@ -40,7 +40,7 @@ html {
     background-image: url(../images/bg-pattern-card.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    border-radius: 25px;
+    border-radius: 15px;
     box-shadow: 5px 5px 15px hsl(0, 0%, 0%,0.4);
 }
  img {
@@ -79,6 +79,7 @@ hr {
     display: flex;
     padding: 30px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .social-info h3 {
@@ -93,4 +94,49 @@ hr {
     padding: 10px;
     color: var(--Dark-grayish-blue);
     font-size: 14px;
+    
+}
+
+
+@media screen and (min-width: 768px){
+    .card {
+        border-radius: 15px;
+        
+    }
+     img {
+         margin: 20% auto 8%;
+         border: 5px solid #ffffff;
+     }
+    
+     .details {
+         text-align: center;
+     }
+    
+     .details h2{
+        font-size: 24px;
+         }
+     
+    
+    .details p{
+        font-size: 15px;
+    }
+    
+    
+    .social-info {
+        padding: 0 50px 10px;
+    }
+    
+    .social-info h3 {
+        font-size: 20px;
+        padding: 15%;
+        margin-right: 5%;
+    }
+    
+    .social-info p{
+        font-weight: 400;
+        padding: 10px;
+        color: var(--Dark-grayish-blue);
+        font-size: 14px;
+    }
+    
 }
